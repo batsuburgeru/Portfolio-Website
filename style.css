@@ -373,5 +373,24 @@ nav ul.show {
         width: 5.875rem;
         height: 5.25rem;
     }
+
+    .contact-form-container {
+        max-width: 23.75rem;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .hero img {
+        height: 37.5rem;
+        width: 23rem;
+    }
+
+    .bio {
+        width: 18.3rem;
+    }
+
+    .contact-form-container {
+        max-width: 17.75rem;
+    }
 }
 
